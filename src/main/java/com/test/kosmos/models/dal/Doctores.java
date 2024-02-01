@@ -1,13 +1,12 @@
 package com.test.kosmos.models.dal;
 
 import com.test.kosmos.models.enums.Especialidades;
+import jakarta.persistence.*;
 
-import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "doctores")
-public class Doctores implements Serializable {
+public class Doctores {
 
     private static final long serialVersionUID = 1L;
 

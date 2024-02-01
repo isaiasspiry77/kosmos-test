@@ -1,14 +1,14 @@
 package com.test.kosmos.models.dal;
 
-import javax.persistence.*;
-import java.io.Serializable;
+
+
+import jakarta.persistence.*;
+
 import java.util.Date;
 
 @Entity
 @Table(name = "citas")
-public class Citas implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Citas {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

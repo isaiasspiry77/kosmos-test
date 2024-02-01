@@ -1,11 +1,11 @@
 package com.test.kosmos.models.dal;
 
-import javax.persistence.*;
-import java.io.Serializable;
+
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "consultorios")
-public class Consultorios implements Serializable {
+public class Consultorios{
 
     private static final long serialVersionUID = 1L;
 
